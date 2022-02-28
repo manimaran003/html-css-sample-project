@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
+}
+.header{
+    background-color: rgb(198, 212, 212);
+    height:15vh;
+}
+.hd-txt{
+    padding:50px;
+    text-align: center;
+    font-size: 28px;
+}
+.main--body{
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+}
+.form-box{
+    flex-grow: 1;
+    background-color: rgb(119, 200, 200);
+    margin:20px
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+}
+.gaps{
+    row-gap: 10px;
+}
+.box-margin{
+    margin:150px 50px;
+}
+
+.box1{
+    padding: 20px;
+    font-size: 20px;
+}
+.footer{
+    height:15vh;
+    background-color: rgb(179, 179, 184);
+}
+.btn-div{
+    text-align: center;
+}
+.sign-text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btn-box{
+    padding:10px;
+    width:50%;
+    font-size: 20px;
+}
+.error-class{
+    border:2px solid red;
+}
+.error1,.error2,.error3,.error4,.error5{
+    color:red;
+    font-size: 20px;
+}
+/*sign up box css*/
+.signup-box{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.name-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding:10px;
+}
+.mail-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+}
+.gender-box{
+    width: 100%;
+display: flex;
+flex-direction: row;
+padding:10px;
+justify-content: space-between;
+}
+.gender1{
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 10px;
+    width:30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 30px 0px 30px ;
+}
+
+.signup-btn{
+    padding: 10px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+}
+.error1-box,.error2-box{
+    width:100%;
+    margin-left: 11px;
+}
+.success-msg{
+    display: none;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    border:2px solid green;
+    padding:10px;
+    background: green;
+}
+/* modal content*/
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top:0%;
+    left:0%;
+}
+.modal-content{
+    background-color: white;
+    margin-top: 224px;
+    margin-left: 30%;
+    height: 40%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+.close{
+    position: relative;
+    top:-10%;
+    left:96%;
+    font-size: 60px;
+}
+.invalid{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+}

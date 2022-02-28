@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <title>login page</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="hd-txt">
+                <h2>SignUp Page</h2>
+            </div>
+        </header>
+        <div class="main--body">
+            <div style="flex-grow:4.5;">
+            </div>
+            <div class="form-box">
+                <p class="success-msg">Form Submitted Successfully</p>
+                <h1 style="text-align: center;margin-top:30px; font-size:35px;">SignUp form</h1>
+                <form>
+                    <div class="input-box">
+                        <div class="name-box">
+                            <input class="signup-box" id="name" type="name" value="" placeholder="firstname" />
+                            <input class="signup-box" id="surname" type="name" value="" placeholder="surname" />
+                        </div>
+                        <div style="display: flex;">
+                            <p class="error1-box error1"></p>
+                            <p class="error2-box error2"></p>
+                        </div>
+                        <div class="mail-box">
+                            <input class="signup-box" id="email" type="email" value="" placeholder="email" />
+                            <p class="error3-box error3"></p>
+                            <input class="signup-box" id="pwd" type="password" value="" placeholder="password" />
+                            <p class="error4-box error4"></p>
+                        </div>
+                        <div style="padding-left: 10px;font-size: 20px;">
+                            <label>Gender</label>
+                        </div>
+                        <div class="gender-box">
+                            <div class="gender1">
+                                <input type="radio" name="fav_language" value="Male">
+                                  <label for="html">Male</label><br>
+                            </div>
+                            <div class="gender1">
+                                <input type="radio" name="fav_language" value="Female">
+                                  <label for="css">Female</label><br>
+                            </div>
+                              <div class="gender1">
+                                <input type="radio" name="fav_language" value="other">
+                                  <label for="javascript">Other</label><br><br>
+                            </div>
+                        </div>
+                        <div style="padding: 10px;">
+                            <input type="number" class="signup-box" id="phno" name="phno" value="" placeholder="phone number"/>
+                            <p class="error5-box error5"></p>
+                        </div>
+                    </div>
+                  <div style="text-align: center; margin-top: 30px;">
+                        <button class="signup-btn" type="submit">SignUp</button>
+                    </div>
+                    <div style="padding:10px">
+                        <a href="index.html">goto login</a>
+                    </div>
+                    
+                </form>
+            </div>
+            <div style="flex-grow: 4.5;">
+            </div>
+        </div>
+        <footer class="footer">
+            <div style="padding-top:40px;">
+                <h1>footer tag</h1>
+            </div>
+        </footer>           
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>
