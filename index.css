@@ -16,7 +16,7 @@
     font-size: 28px;
 }
 .main--body{
-    height:60vh;
+    height:50vh;
     display: flex;
     flex-direction: row;
 }
